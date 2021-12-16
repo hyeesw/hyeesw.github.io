@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "How to install jekyll?"
 comments: true
 ---
@@ -8,6 +8,7 @@ comments: true
 Ruby에 기반한 정적 웹사이트 생성 프레임워크
 # Jekyll을 이용해서 git page를 만들어 보자!
 ### 페이지 만들기
+---------------
 1. `jekyll new . –force`  :  만들고자 하는 로컬 리포지토리에 지킬 설치
 2. `bundle exec jekyll serve` 로컬 서버 동작
 
@@ -18,13 +19,13 @@ __<아래 과정은 원격 리포에 반영하는 방법입니다.>__
 5. `git commit –m “add: blog”`
 6. 6. `git push origin main` <<username.github>>.github.io 에 가보면 원격으로도 반영이 된 것을 확인할 수 있다.
 
-### <포스트 업로드>
+### 포스트 업로드
 ---------------
 1. _posts 파일 안에 YYYY-MM-DD-TITLE.md 파일을 새로 열고
 2. 그 안에 markdown 형식으로 내용을 작성한다.
 3. 위에서 언급한 방식으로 local에 commit으로 반영한 후 `git push origin main` 하면 원격 리포에도 반영 됨을 확인할 수 있다.
 
-### <댓글 기능 추가>
+### 댓글 기능 추가
 ---------------
 1. <<username>>.github.io가 잘 나오는 상태로 준비한다.
 2. https://disqus.com 에 들어가서 로그인 후 strat를 누른다.
