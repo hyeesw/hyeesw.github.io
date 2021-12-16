@@ -11,7 +11,7 @@ comments: true
 `jekyll new . –force`  :  만들고자 하는 로컬 리포지토리에 지킬 설치  
 `bundle exec jekyll serve` 로컬 서버 동작
 
-__<아래 과정은 원격 리포에 반영하는 방법입니다.>__
+__아래 과정은 원격 리포에 반영하는 방법입니다.__
 
 `git rm index.html`  이 파일을 삭제하면 이전에 있던 페이지를 없애고 새로운 페이지로 갱신한다.  
 `git add *`  
@@ -32,7 +32,7 @@ https://disqus.com 에 들어가서 로그인 후 strat를 누른다.
 정보를 입력하되, Website name은 꼭 기억하기!  
 뒤로 가다보면 wetsite URL 부분이 있는데 거기에 https://<<username>>.github.io 를 입력한다.  
 
-__<아래 과정은 파일에 반영하는 방법입니다.>__
+__아래 과정은 파일에 반영하는 방법입니다.__
 
 \_config.yml 파일을 열어 아래 사진과 같이 추가한다.  
 (만약 아래 틀을 가지고 있는 테마라면, 따로 추가하지 말고 해당 부분을 수정한다.)  
