@@ -26,11 +26,11 @@ __<아래 과정은 원격 리포에 반영하는 방법입니다.>__
 
 ### <댓글 기능 추가>
 ---------------
-1. hyeesw.github.io가 잘 나오는 상태로 준비한다.
+1. <<username>>.github.io가 잘 나오는 상태로 준비한다.
 2. https://disqus.com 에 들어가서 로그인 후 strat를 누른다.
 3. “I want to install Disqus on my site” 를 누른다.
-4. 정보를 입력하되, Website name은 꼭 기억하기! -> hyeesw
-5. 뒤로 가다보면 wetsite URL 부분이 있는데 거기에 https://hyeesw.github.io 를 입력한다.
+4. 정보를 입력하되, Website name은 꼭 기억하기!
+5. 뒤로 가다보면 wetsite URL 부분이 있는데 거기에 https://<<username>>.github.io 를 입력한다.
 
 __<아래 과정은 파일에 반영하는 방법입니다.>__
 
