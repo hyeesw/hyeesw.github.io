@@ -4,12 +4,13 @@ title: "change favicon!"
 comments: true
 ---
 
-# favicon을 바꿔보자!
+# favicon을 바꿔보자!  
 
+<https://icons8.kr/icons/set/favicon-ico>   
+위 사이트에서 원하는 favicon 이미지를 pc에 저장한다.
 
-<https://icons8.kr/icons/set/favicon-ico> 에서 원하는 favicon 이미지를 pc에 저장한다.
-
-<https://www.favicon-generator.org/> 에 들어가서 **파일 선택** 을 누르고 pc에 저장한 favicon을 불러온다.  
+<https://www.favicon-generator.org/>   
+위 사이트에 들어가서 **파일 선택** 을 누르고 pc에 저장한 favicon을 불러온다.  
 **create favicon** 버튼을 누르면 아래와 같이 뜰 것이다.
 
 ![image](https://user-images.githubusercontent.com/84231143/146337026-ace63af2-8d41-4893-aeb7-7a08d069b591.png)
