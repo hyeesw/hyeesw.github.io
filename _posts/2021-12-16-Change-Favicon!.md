@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "change favicon!"
+comments: true
 ---
 
 # change favicon
