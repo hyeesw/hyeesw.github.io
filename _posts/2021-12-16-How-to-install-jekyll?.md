@@ -33,11 +33,14 @@ __<아래 과정은 원격 리포에 반영하는 방법입니다.>__
 5. 뒤로 가다보면 wetsite URL 부분이 있는데 거기에 https://hyeesw.github.io 를 입력한다.
 
 __<아래 과정은 파일에 반영하는 방법입니다.>__
-6. _config.yml 파일을 열어 아래 사진과 같이 추가한다. 
+
+6. \_config.yml 파일을 열어 아래 사진과 같이 추가한다. 
  (만약 아래 틀을 가지고 있는 테마라면 따로 추가하지 말고 해당 부분을 수정한다. )
+ 
 ![image](https://user-images.githubusercontent.com/84231143/146325304-aaa2b00c-cce9-4729-bd2b-2d74b0bba981.png)
+
 7. disqus 홈피에 있는 code 복사
-8. _layouts/post.html에 복사한 코드를 아래 if문으로 묶기
+8. \_layouts/post.html에 복사한 코드를 아래 if문으로 묶기
 {% if page.comments %}
 {% endif %}
 
@@ -46,4 +49,4 @@ let PAGE_URL = “{{site.url}}{{page.url}}”
 let PAGE_IDENTIFIER = “{{page.url}}”
 
 10. `s.src = ‘https://<<username>>.disqus.com/embed.js’;` 잘 나와있는지 확인
-11. _posts 폴더 아래 댓글 기능을 허용하고 싶은 **.md 파일**에 `comments: true`로 설정한다.
+11. \_posts 폴더 아래 댓글 기능을 허용하고 싶은 **.md 파일**에 `comments: true`로 설정한다.
