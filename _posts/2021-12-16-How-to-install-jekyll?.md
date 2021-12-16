@@ -36,8 +36,7 @@ __아래 과정은 원격 리포에 반영하는 방법입니다.__
 정보를 입력하되, **Website name**은 꼭 기억하기!  
 뒤로 가다보면 **wetsite URL** 부분이 있는데 거기에 **https://<<username>>.github.io** 를 입력한다.  
 
-__아래 과정은 파일에 반영하는 방법입니다.__
-
+__아래 과정은 파일에 반영하는 방법입니다.__  
 **\_config.yml** 파일을 열어 아래 사진과 같이 추가한다.  
 (만약 아래 틀을 가지고 있는 테마라면, 따로 추가하지 말고 해당 부분을 수정한다.)  
  
@@ -45,12 +44,12 @@ __아래 과정은 파일에 반영하는 방법입니다.__
 
 disqus 홈피에 있는 code 복사  
 **\_layouts/post.html**에 복사한 코드를 아래 if문으로 묶기  
->{% if page.comments %}  
->{% endif %}  
+`{% if page.comments %}`  
+`{% endif %}`  
 
 주석 해제 후, 아래 두 코드를 추가한다.  
->let PAGE_URL = “{{site.url}}{{page.url}}”  
->let PAGE_IDENTIFIER = “{{page.url}}”  
+`let PAGE_URL = “{{site.url}}{{page.url}}”`  
+`let PAGE_IDENTIFIER = “{{page.url}}”`  
 
 **`s.src = ‘https://<<username>>.disqus.com/embed.js’;`** 잘 나와있는지 확인  
 **\_posts** 폴더 아래 댓글 기능을 허용하고 싶은 **.md 파일**에 `comments: true`로 설정한다.  
