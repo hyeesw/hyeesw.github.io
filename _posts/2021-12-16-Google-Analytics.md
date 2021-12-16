@@ -1,3 +1,8 @@
+---
+layout: single
+title:  Google Analytics
+---
+
 # Google Analytics 추가하기
 
 hyeesw.github.io가 잘 나오는 상태로 준비한다.
