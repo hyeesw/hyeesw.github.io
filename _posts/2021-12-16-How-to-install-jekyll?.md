@@ -7,8 +7,7 @@ comments: true
 ## Jekyll이란?
 Ruby에 기반한 정적 웹사이트 생성 프레임워크
 # Jekyll을 이용해서 git page를 만들어 보자!
-### <페이지 만들기>
----------------
+### 페이지 만들기
 1. `jekyll new . –force`  :  만들고자 하는 로컬 리포지토리에 지킬 설치
 2. `bundle exec jekyll serve` 로컬 서버 동작
 
