@@ -48,8 +48,8 @@ disqus 홈피에 있는 code 복사
 `{% endif %}`  
 
 주석 해제 후, 아래 두 코드를 추가한다.  
-`let PAGE_URL = “{{site.url}}{{page.url}}”`  
-`let PAGE_IDENTIFIER = “{{page.url}}”`  
+`let PAGE_URL = \“{{site.url}}{{page.url}}\”`  
+`let PAGE_IDENTIFIER = \“{{page.url}}\”`  
 
 **`s.src = ‘https://<<username>>.disqus.com/embed.js’;`** 잘 나와있는지 확인  
 **\_posts** 폴더 아래 댓글 기능을 허용하고 싶은 **.md 파일**에 `comments: true`로 설정한다.  
