@@ -1,6 +1,6 @@
 ---
-layout: single
-title: "Let's change favicon!"
+layout: post
+title: "change favicon!"
 ---
 
 # change favicon
