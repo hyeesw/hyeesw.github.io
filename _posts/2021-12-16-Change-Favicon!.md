@@ -4,7 +4,7 @@ title: "change favicon!"
 comments: true
 ---
 
-# change favicon
+# favicon을 바꿔보자!
 
 
 <https://icons8.kr/icons/set/favicon-ico> 에서 원하는 favicon 이미지를 pc에 저장한다.
