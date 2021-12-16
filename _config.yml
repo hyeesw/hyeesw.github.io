@@ -105,15 +105,15 @@ author:
   name             : "김혜은"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "hyeesw_blog"
-  location         : "Somewhere"
-  email            :
+  location         : "국민대학교"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
+    - label: "school"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url:  "https://www.kookmin.ac.kr/user/index.do"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
