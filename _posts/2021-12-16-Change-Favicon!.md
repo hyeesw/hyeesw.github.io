@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "change favicon!"
 comments: true
 ---
