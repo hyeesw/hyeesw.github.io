@@ -28,7 +28,7 @@ comments: true
 이때 복사한 코드를 살펴보면 아래처럼 적혀있는데,  
 `<link rel="apple-touch-icon"  sizes="57x57" href="/apple-icon-57x57.png">`  
 코드에 **href="/** 부분이 있는 줄은 모두 약간의 수정이 필요하다.  
-**{{site.baseurl}}/assets** 를 아래 사친처럼 사이에 끼워준다.  
+아래 사진처럼 빨강색 밑줄 친 코드를 사이에 추가한다.   
 ![image](https://user-images.githubusercontent.com/84231143/146383344-339da8ba-0038-47f6-89a2-09411522a362.png)
 
 **href**가 적혀있는 모든 곳에 위와 같이 추가하고, **commit**하면 favicon 변경 끝!
