@@ -1,3 +1,27 @@
+# Project BUILD
+강의 내용대로 순차적으로 리눅스 터미널을 통해 블로그를 만들었습니다.
+__여러 시행 착오가 있었습니다.__
+#### __first issue__
+고르는 테마마다 아래와 같은 오류가 났습니다. 
+```
+다음 경로는 .gitignore 파일 중 하나 때문에 무시합니다:
+_site
+정말로 추가하려면 -f 옵션을 사용하십시오.
+```
+원하는대로 .gitingnore 파일에 _site를 삭제했더니 해결됐습니다.
+
+#### __second issue__
+테마를 선택하는 과정에서 _config.yml 파일 대신 다른 형태의 _config 파일이 있는 테마도 있어서 테마 clone 했다가 다시 삭제하는 일도 있었습니다.
+#### __third issue__
+ 리포지토리의 이름을 <<username>>.github.io로 해야된다는 것을 까먹고, 여러 오류들을 고치기 위해 username_blog.github.io, username_blog2.github.io등 다양한 리포지토리를 만들었습니다. 그 결과 git push를 하면 아래와 같은 오류가 떴었습니다.
+![image](https://user-images.githubusercontent.com/84231143/146318475-8cef2050-460b-43d0-9874-5373fa63f4a2.png)
+많은 시행착오 끝에 리포지토리의 이름이 잘못 된 것을 알게 되어 수정했습니다.
+#### __fourth issue__
+댓글 기능 구현은 테마가 달라서인지 가르쳐 주신대로 했지만 잘 안 됐습니다..  
+하지만 계속해서 찾아본 끝에 결국 해냈습니다ㅠㅠ
+해결하는데 많은 도움을 줬던 유튜브 영상입니다. https://www.youtube.com/watch?v=anXaW9xhgcU
+  
+  
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
