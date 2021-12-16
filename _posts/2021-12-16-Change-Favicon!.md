@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: splash
 title: "change favicon!"
 ---
 
@@ -16,7 +16,7 @@ https://www.favicon-generator.org/ 에 들어가서 **파일 선택** 을 누르
 
 **logo.ico** 디렉토리에 위에서 다운 받은 파일의 압축을 풀어서 넣는다.
 
-이번에는 **_includes** 디렉토리에 들어가 **head.html** 파일을 찾는다.
+이번에는 **\_includes** 디렉토리에 들어가 **head.html** 파일을 찾는다.
 
 아래 코드들을 복사하여 **head.html** 코드 맨 아래줄에 추가한다.
 ![image](https://user-images.githubusercontent.com/84231143/146337695-169dbd55-0f53-4ff7-984d-6c1117509d3a.png)
